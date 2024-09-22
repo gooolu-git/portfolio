@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+nav ul {
+display: none;
+}
+nav img{
+    height: 50px;
+}
+#secnav{
+    position:absolute;
+    /* right: 10px; */
+    top: 80px;
+    right:5px;
+    height: 200px;
+    width: 150px;
+    background-color: #27272a;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    display: none;
+}
+#secnav ul a{
+    text-decoration: none;
+    color: white;
+}
+#secnav ul li:hover{
+    transform: scale(1.2);
+
+}
+#secnav ul {
+    list-style: none;
+    /* font-family: poppins,sans-serif; */
+    align-items: center;
+    /* position:fixed; */
+}
+
+#secnav img{
+    height: 30px;
+    filter: invert(5);
+    /* margin-left: 70px; */
+}
+
+#tiger img{
+    display:block;
+}
+#tiger:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* about section  */
+.firstsection{
+    /* font-size: 0.5rem; */
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rightsection{
+    display: none;
+}
+.firstsection>div {
+    width: 80%;
+
+
+}
+
+.leftsection {
+    /* background-color: red; */
+    font-size:1.5rem;
+    /* margin: 20px 0; */
+    margin: 10px 5px;
+}
+.secondsection{
+    height:70vh;
+}
+
+
+/* third sectin  */
+
+.thirdsection{
+    height: 310vh;
+}
+.thirdsection h1 {
+    margin-left:30px;
+}
+.box{
+    height: 65vh;
+    flex-direction: column;
+    font-size: 0.5rem;
+}
+.box img{
+    height:180px;
+}
+
+
+
+/* fourths section or footer  */
+
+.fourthsection {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fourthcontainer img {
+    height: 40px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heads {
+    font-size:1.7rem;
+}
+
+.heads2 {
+    font-size:0.9rem;
+}
+.chota{
+    font-size: 1.3rem;
+}
+.ariya{
+    text-align: left;
+}
+.duri {
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 432px) {
+    @import url('tablet.css');
+}
+
+.firstsection{
+    height: 50vh;
+}
+
+.secondsection{
+    height:80vh;
+}
+*{
+    font-size: 1rem;
+}
